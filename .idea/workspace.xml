@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf004881-14ba-495b-8f8b-830b085412d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/basic/core/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/CoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/MemberApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/OrderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/discount/DiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/discount/FixDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/member/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/member/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/CoreApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/autowired/AutowiredTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/beanfind/ApplicationContextBasicFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/beanfind/ApplicationContextInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/beanfind/ApplicationContextSameBeanFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/member/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/order/OrderServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/order/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/scan/AutoAppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/scan/filter/BeanA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/scan/filter/BeanB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/scan/filter/ComponentFilterAppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/scan/filter/MyExcludeComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/scan/filter/MyIncludeComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/singleton/ConfigSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/singleton/SingletonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/singleton/StatefulService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/core/src/test/java/hello/core/singleton/StatefulServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/ServletApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/basic/HelloData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/basic/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/basic/request/RequestBodyJsonServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/basic/request/RequestBodyStrongServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/basic/request/RequestHeaderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/basic/request/RequestParamServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/basic/response/ResponseHeaderSevlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/basic/response/ResponseHtmlServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/basic/response/ResponseJsonServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/domain/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/domain/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/ModelView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/MyView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v1/ControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v1/FrontControllerServletV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberFormControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberListControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberSaveControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v2/ControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v2/FrontControllerServletV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberFormControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberListControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberSaveControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/ControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/FrontControllerServletV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberFormControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberListControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberSaveControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/ControllerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/FrontControllerServletV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberFormControllerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberListControllerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberSaveControllerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/FrontControllerServletV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/MyHandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/adapter/ControllerV3HandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/servlet/MemberFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/servlet/MemberListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/servlet/MemberSaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberSaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/webapp/WEB-INF/views/members.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/webapp/WEB-INF/views/new-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/webapp/WEB-INF/views/save-result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/webapp/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/webapp/basic/hello-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/webapp/jsp/members.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/webapp/jsp/members/new-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/main/webapp/jsp/members/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/test/java/hello/servlet/ServletApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/servlet/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/src/main/java/hello/thymeleaf/ThymeleafBasicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/src/main/java/hello/thymeleaf/basic/BasicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/src/main/resources/templates/basic/text-basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/src/main/resources/templates/basic/text-unescaped.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/src/main/resources/templates/basic/variable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/thymeleaf-basic/src/test/java/hello/thymeleaf/ThymeleafBasicApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/SpringmvcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/basic/HelloData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/basic/LogTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/basic/request/RequestBodyJsonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/basic/request/RequestBodyStringController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/basic/request/RequestHeaderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/basic/request/RequestParamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/basic/requestmapping/MappingClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/basic/requestmapping/MappingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/basic/response/ResponseBodyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/java/hello/springmvc/basic/response/ResponseViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/resources/static/basic/hello-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/main/resources/templates/response/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/springmvc/src/test/java/hello/springmvc/SpringmvcApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/java/hello/itemservice/ItemServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/java/hello/itemservice/TestDataInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/java/hello/itemservice/domain/item/DeliveryCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/java/hello/itemservice/domain/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/java/hello/itemservice/domain/item/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/java/hello/itemservice/domain/item/ItemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/java/hello/itemservice/web/form/FormItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/resources/templates/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/resources/templates/form/addForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/resources/templates/form/editForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/resources/templates/form/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/main/resources/templates/form/items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc_pre/form/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2GyJZPDFwPkJcD2T34xMUXQYZ2M" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/junhee/LJH/springbasic"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf004881-14ba-495b-8f8b-830b085412d4" name="Changes" comment="" />
+      <created>1667354945016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667354945016</updated>
+      <workItem from="1667354946145" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
